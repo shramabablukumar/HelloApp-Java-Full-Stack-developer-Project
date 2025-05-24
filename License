@@ -1,0 +1,44 @@
+
+---
+
+### 📁 2. Create `UX.md`
+
+This file explains the **user experience** design choices:
+
+```markdown
+# UX Design for Greeting Message App
+
+## 🎯 Objective
+
+To provide a minimal, user-friendly interface for managing greeting messages using CRUD operations.
+
+## 👤 Target Users
+
+- Beginners learning full-stack apps
+- Small teams managing quick notes/messages
+
+## 📱 User Flow
+
+1. User lands on the homepage
+2. Enters a greeting in the input field
+3. Clicks **Add** to store the greeting
+4. Can edit or delete existing greetings
+
+## 🎨 UI Design
+
+- **Input Field**: Wide and clear with padding
+- **Buttons**: Distinct, labeled for Add/Update/Cancel
+- **List**: Readable layout with Edit/Delete options
+- **Responsive**: Mobile-friendly layout
+
+## 🔁 Feedback Loop
+
+- Buttons show instant actions
+- Inputs clear on submit/edit
+- Inline editing makes the experience seamless
+
+## 💡 Improvements
+
+- Add toast messages for success/error
+- Add loading spinner while fetching data
+- Improve error handling (backend unreachable, etc.)
